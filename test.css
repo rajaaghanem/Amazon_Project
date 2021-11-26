@@ -346,12 +346,12 @@
 .main {
   height: 130vh;
   display: grid;
-  grid-template-columns: 50rem 50rem 25rem;
+  grid-template-columns: 40rem 60rem 25rem;
 }
 
 .main-left {
   display: flex;
-  width: 50rem;
+  width: 40rem;
 }
 
 .main-left-small,
@@ -377,7 +377,7 @@
 .large {
   position: absolute;
   top: 0rem;
-  left: 8rem;
+  left: 7rem;
   visibility: hidden;
 }
 
@@ -386,11 +386,11 @@ li:hover .large {
 }
 
 .main-left-big {
-  padding: 0 3rem;
+  padding: 0 2rem;
 }
 
 .big_img-size {
-  width: 38rem;
+  width: 31rem;
   height: 38rem;
 }
 
@@ -402,7 +402,7 @@ li:hover .large {
 
 .main-left-big_img {
   position: relative;
-  width: 38rem;
+  width: 31rem;
   height: 40rem;
 }
 
