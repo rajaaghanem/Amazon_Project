@@ -342,7 +342,9 @@
 }
 
 .main,
-.main > div {
+.main > div,
+.main > div > div,
+.main > div > div > div {
   border: 1px solid black;
 }
 
@@ -355,6 +357,10 @@
 .main-left {
   display: flex;
   width: 40rem;
+}
+
+.main-center {
+  padding: 2rem;
 }
 
 .main-left-small,
