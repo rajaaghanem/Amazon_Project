@@ -243,14 +243,6 @@
 
 /*--------------navbar bottom-----------------*/
 
-/* .navbar_bottom > div,
-.navbar_bottom > div > div,
-.navbar_bottom > div > div > div,
-.navbar_bottom > div > div > div > div,
-.navbar_bottom > div > div > div > div > div {
-  border: 1px solid white;
-} */
-
 .navbar_bottom {
   display: grid;
   grid-template-columns: 65rem 18rem;
@@ -336,12 +328,12 @@
 }
 /*-----------main content---------*/
 
-/* .main,
+.main,
 .main > div,
 .main > div > div,
 .main > div > div > div {
   border: 1px solid black;
-} */
+}
 
 .main {
   height: 140vh;
@@ -495,7 +487,7 @@ li:hover .large {
   font-size: 1.2rem;
 }
 .big-font {
-  font-size: 1.6rem;
+  font-size: 1.7rem;
 }
 
 .main-center-secound .Ingredients {
@@ -511,7 +503,52 @@ li:hover .large {
 .main-center-third ul li {
   font-size: 1.4rem;
 }
-/*------main center bottom-----*/
+
+/*---------------main right---------------*/
+
+.main-right > div {
+  padding: 1.5rem;
+  font-size: 1.4rem;
+}
+.main-right > div > div {
+  margin: 1rem 0;
+}
+.location-icon > a > img {
+  margin-right: 0.7rem;
+}
+
+.in-stock {
+  color: #459c68;
+}
+
+.main-right-btn > div {
+  margin: 1rem 0;
+}
+
+.main-right-btn-lists {
+  display: flex;
+}
+.main-right-btn-lists > ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 1rem 1.4rem;
+}
+
+.Add-gift-card {
+  display: flex;
+}
+.Add-gift-card .gift-card-text {
+  padding-left: 1rem;
+}
+.Add-gift-card .gift-card-text p {
+  padding-top: 0;
+  margin-top: 0;
+}
+
+.add-to-list {
+  text-decoration: none;
+  height: 2.8rem;
+}
 
 @font-face {
   font-family: amazon-font;
