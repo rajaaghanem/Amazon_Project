@@ -457,6 +457,18 @@ li:hover .large {
   height: 1.5rem;
   background: url(/img/aui-mini-sprite-2015-02.png) -17rem 18rem;
 }
+.Climate-logo {
+  text-decoration: none;
+  color: #459c68;
+  font-size: 1.3rem;
+  padding-left: 1rem;
+}
+.Climate-logo > img {
+  width: 2.5rem;
+  height: 2rem;
+  padding-left: 0.7rem;
+  /* padding-top: 1rem; */
+}
 
 /*---main center secound----*/
 .main-center-secound .Ingredients {
