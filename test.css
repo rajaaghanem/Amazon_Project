@@ -142,6 +142,19 @@
   border-radius: 0.3rem;
 }
 
+.dropdown-language-content {
+  font-size: 1.3rem;
+  color: black;
+}
+
+.dropdown-language-content-first p {
+  padding-left: 4rem;
+}
+
+.dropdown-language-content-first {
+  border-bottom: 0.1rem solid rgb(170, 169, 169);
+}
+
 .dropdown-signin-dropbtn,
 .return-link {
   text-decoration: none;
