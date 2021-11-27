@@ -650,3 +650,24 @@ li:hover .large {
 .contact-icons-list ul li a .pinterest {
   background: url(/img/follow_me_icons.png) -13.7rem -26.8rem;
 }
+
+.contact-icons .one-sell p {
+  text-align: center;
+}
+
+.contact-icons .sell-amazon {
+  display: block;
+  padding: 0.8rem 0.1rem 0.1rem 0.1rem;
+  margin-left: 5.5rem;
+  width: 11rem;
+  height: 2.5rem;
+  border: 0.1rem solid rgb(167, 166, 166);
+  border-radius: 1rem;
+  text-decoration: none;
+  color: black;
+  text-align: center;
+  box-shadow: 0.1rem 0.1rem 0.2rem rgb(167, 166, 166);
+}
+.contact-icons .sell-amazon:hover {
+  background-color: rgb(245, 243, 243);
+}
