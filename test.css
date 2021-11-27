@@ -454,8 +454,10 @@ li:hover .large {
 
 .start_img > a > div {
   width: 8rem;
-  height: 2.2rem;
+  height: 1.5rem;
+  background: url(/img/aui-mini-sprite-2015-02.png) -17rem 18rem;
 }
+
 /*---main center secound----*/
 .main-center-secound .Ingredients {
   display: flex;
