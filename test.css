@@ -693,11 +693,11 @@ li:hover .large {
   font-size: 1.4rem;
 }
 
-.carousle_main,
+/* .carousle_main,
 .carousle_main > div,
 .carousle_main > div > di {
   border: 1px solid black;
-}
+} */
 
 .carousle_main {
   height: 35rem;
@@ -720,26 +720,29 @@ li:hover .large {
   background-color: white;
   box-shadow: 0.1rem 0.1rem 0.2rem rgb(165, 164, 164);
 }
+
+.carousle_main-all-cards {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  justify-content: space-between;
+}
+
 /*----------card-----------*/
 .carousle_main-card {
-  border: 1px solid black;
   height: 33rem;
   width: 18rem;
   font-size: 1.3rem;
 }
 
 .carousle_main-card img {
-  border: 1px solid black;
   height: 15rem;
-  width: 17.9rem;
 }
 
-.carousle_main-card .description {
-  border: 1px solid black;
+.description {
   height: 8rem;
 }
 
-.carousle_main-card .stars-num {
+.stars-num {
   display: flex;
 }
 
