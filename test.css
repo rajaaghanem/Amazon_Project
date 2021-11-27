@@ -562,13 +562,14 @@ li:hover .large {
 .select-qty {
   position: relative;
   width: 6rem;
-  height: 1.8rem;
+  height: 1.6rem;
   background-color: #e4e6e7;
   border-radius: 0.7rem;
   font-size: 1.2rem;
   padding: 0.2rem;
   border: 0.1rem solid rgb(206, 205, 205);
   box-shadow: 0.1rem 0.1rem 0.2rem grey;
+  cursor: pointer;
 }
 
 .select-qty-hidden {
@@ -583,6 +584,43 @@ li:hover .large {
 .select-qty:hover {
   background-color: #bfc1c4;
   box-shadow: transparent;
+}
+.add-to-cart_btn,
+.buy-now_btn {
+  position: relative;
+  margin: 1rem;
+  width: 18rem;
+  height: 3rem;
+  padding-left: 1rem;
+  background-color: rgb(243, 204, 30);
+  border-radius: 2rem;
+  text-align: center;
+}
+
+.buy-now_btn {
+  background-color: orange;
+}
+
+.add-to-cart_checkbox,
+.buy-now_link {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 18rem;
+  height: 3rem;
+  opacity: 0;
+  cursor: pointer;
+}
+
+.add-to-cart_btn p,
+.buy-now_btn p {
+  padding-top: 0.5rem;
+}
+.add-to-cart_btn:hover {
+  background-color: rgb(224, 198, 48);
+}
+.buy-now_btn:hover {
+  background-color: rgb(247, 143, 6);
 }
 @font-face {
   font-family: amazon-font;
