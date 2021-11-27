@@ -742,16 +742,38 @@ li:hover .large {
 .carousle_main-card .stars-num {
   display: flex;
 }
-.carousle_main-card .stars-num > div {
+
+.stars-num-icon-4 {
+  display: block;
   width: 8rem;
+  height: 1.5rem;
+  background: url("/img/stars.png") -8.4rem -0.8rem;
+  margin-top: 1.1rem;
+  padding-left: 0.1rem;
 }
-.carousle_main-card .card-price {
+
+.stars-num-icon-4-5 {
+  width: 8rem;
+  height: 1.5rem;
+  background: url("/img/stars.png") -8.4rem -2.8rem;
+  margin-top: 1.1rem;
+  padding-left: 0.1rem;
+}
+
+.stars-num-icon-5 {
+  width: 8rem;
+  height: 1.5rem;
+  background: url("/img/stars.png") -16.6rem -3.6rem;
+  margin-top: 1.1rem;
+  padding-left: 0.1rem;
+}
+
+.card-price {
   display: flex;
 }
 
-.carousle_main-card .card-price > div {
-  border: 1px solid black;
-  width: 4.4rem;
-  height: 1rem;
-  padding-top: 3rem;
+.price-icon {
+  width: 5.4rem;
+  height: 1.6rem;
+  background: url("/img/follow_me_icons.png") -18.4rem -18.2rem;
 }
