@@ -629,10 +629,24 @@ li:hover .large {
 }
 
 .contact-icons-list ul li a > div {
-  width: 2.4rem;
-  height: 1.8rem;
+  width: 2rem;
+  height: 2rem;
 }
 
 .contact-icons-list ul li a .mail {
-  background: url() -25.5rem -22rem;
+  width: 2.4rem;
+  height: 1.8rem;
+  background: url(/img/follow_me_icons.png) -25.5rem -22rem;
+}
+
+.contact-icons-list ul li a .facebook {
+  background: url(/img/follow_me_icons.png) -23.6rem -15rem;
+}
+
+.contact-icons-list ul li a .twitter {
+  background: url(/img/follow_me_icons.png) -19.2rem -10.4rem;
+}
+
+.contact-icons-list ul li a .pinterest {
+  background: url(/img/follow_me_icons.png) -13.7rem -26.8rem;
 }
