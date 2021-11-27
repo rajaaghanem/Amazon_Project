@@ -95,6 +95,17 @@ card.innerHTML += cardInfo;
 // <div class="card-price">${cards[0].price}<div class="${cards[0].icon}"></div></div>
 // </div>`;
 
-console.dir(info);
+
 
 // card.innerHTML += info;
+
+
+
+function clickOn(){   
+    let num = document.querySelector("#card-num"); 
+    let value= num.innerHTML;
+    value++;
+    document.querySelector("#card-num").innerHTML = value;
+}
+
+
