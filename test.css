@@ -336,11 +336,6 @@
 }
 /*-----------main content---------*/
 
-.main-left,
-.main-left > div {
-  border: 1px solid black;
-}
-
 .main,
 .main > div,
 .main > div > div,
@@ -425,6 +420,45 @@ li:hover .large {
 .main-left-small_img:hover {
   border-color: rgb(233, 153, 4);
   box-shadow: 0.1rem 0.1rem 0.2rem #f3a847;
+}
+
+/*------------main center----------------*/
+/*---main center top----*/
+
+.main-center-top > h1 {
+  font-weight: normal;
+  font-size: 2.5rem;
+}
+
+.blue-links {
+  text-decoration: none;
+  color: #028194;
+  font-size: 1.3rem;
+}
+
+.blue-links:hover {
+  text-decoration: underline;
+}
+
+.main-center-top .ratings-border {
+  border-right: 0.2rem solid gray;
+  padding-right: 1.5rem;
+}
+
+.stars-and-rating {
+  display: flex;
+}
+.stars-and-rating > div {
+  padding: 1rem;
+}
+
+.start_img > a > div {
+  width: 8rem;
+  height: 2.2rem;
+}
+/*---main center secound----*/
+.main-center-secound .Ingredients {
+  display: flex;
 }
 
 @font-face {
