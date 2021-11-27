@@ -545,9 +545,18 @@ li:hover .large {
   margin-top: 0;
 }
 
-.add-to-list {
+.add-to-list_link {
+  display: block;
   text-decoration: none;
-  height: 2.8rem;
+  color: black;
+  margin: 1rem;
+}
+
+.add-to-list {
+  background-color: rgb(235, 230, 230);
+  height: 3.2rem;
+  border: 0.1rem solid grey;
+  border-radius: 0.4rem;
 }
 
 @font-face {
