@@ -692,3 +692,31 @@ li:hover .large {
 .current-page p {
   font-size: 1.4rem;
 }
+
+.carousle_main,
+.carousle_main > div,
+.carousle_main > div > di {
+  border: 1px solid black;
+}
+
+.carousle_main {
+  height: 38rem;
+  display: grid;
+  grid-template-columns: 7rem 111rem 7rem;
+  justify-content: space-between;
+}
+
+.carousle_main-left-arrow button {
+  display: block;
+  margin-left: 1rem;
+  width: 4rem;
+  height: 4rem;
+  text-align: center;
+  padding: 0.7rem 0.5rem;
+  margin-top: 17rem;
+  border: 0.1rem solid rgb(189, 186, 186);
+  border-radius: 0.5rem;
+  cursor: pointer;
+  background-color: white;
+  box-shadow: 0.1rem 0.1rem 0.2rem rgb(165, 164, 164);
+}
