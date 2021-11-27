@@ -390,6 +390,7 @@ li:hover .large {
 }
 
 .main-left-big {
+  /* position: fixed; */
   padding: 0 2rem;
 }
 
@@ -471,9 +472,42 @@ li:hover .large {
 }
 
 /*---main center secound----*/
+
+.main-center-secound {
+  font-size: 1.4rem;
+}
+
+.main-center-secound .list-price p {
+  margin: 0.3rem;
+}
+
+.main-center-secound .paragraph-pad {
+  padding-left: 2.9rem;
+}
+
+.span-color-red {
+  color: #b12704;
+}
+.bold-font {
+  font-weight: bold;
+}
+.small-font {
+  font-size: 1.2rem;
+}
+.big-font {
+  font-size: 1.6rem;
+}
 .main-center-secound .Ingredients {
   display: flex;
 }
+
+.Ingredients-left > li,
+.Ingredients-right > li {
+  list-style-type: none;
+  padding: 0.4rem;
+}
+
+/*------main center third-----*/
 
 @font-face {
   font-family: amazon-font;
