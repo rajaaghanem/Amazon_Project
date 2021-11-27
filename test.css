@@ -671,3 +671,24 @@ li:hover .large {
 .contact-icons .sell-amazon:hover {
   background-color: rgb(245, 243, 243);
 }
+
+.carousle_top {
+  display: flex;
+  justify-content: space-between;
+}
+
+.carousle_top div h1 {
+  color: #cc6600;
+  padding-left: 0.8rem;
+}
+
+.sponser_link {
+  text-decoration: none;
+  font-size: 1.2rem;
+  color: gray;
+  font-weight: normal;
+}
+
+.current-page p {
+  font-size: 1.4rem;
+}
