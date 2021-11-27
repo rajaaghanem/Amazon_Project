@@ -619,3 +619,20 @@ li:hover .large {
 .buy-now_btn:hover {
   background-color: rgb(247, 143, 6);
 }
+
+.contact-icons-list ul {
+  display: flex;
+  list-style-type: none;
+}
+.contact-icons-list ul li {
+  padding: 0.3rem;
+}
+
+.contact-icons-list ul li a > div {
+  width: 2.4rem;
+  height: 1.8rem;
+}
+
+.contact-icons-list ul li a .mail {
+  background: url() -25.5rem -22rem;
+}
