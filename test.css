@@ -700,7 +700,7 @@ li:hover .large {
 }
 
 .carousle_main {
-  height: 38rem;
+  height: 35rem;
   display: grid;
   grid-template-columns: 7rem 111rem 7rem;
   justify-content: space-between;
@@ -719,4 +719,39 @@ li:hover .large {
   cursor: pointer;
   background-color: white;
   box-shadow: 0.1rem 0.1rem 0.2rem rgb(165, 164, 164);
+}
+/*----------card-----------*/
+.carousle_main-card {
+  border: 1px solid black;
+  height: 33rem;
+  width: 18rem;
+  font-size: 1.3rem;
+}
+
+.carousle_main-card img {
+  border: 1px solid black;
+  height: 15rem;
+  width: 17.9rem;
+}
+
+.carousle_main-card .description {
+  border: 1px solid black;
+  height: 8rem;
+}
+
+.carousle_main-card .stars-num {
+  display: flex;
+}
+.carousle_main-card .stars-num > div {
+  width: 8rem;
+}
+.carousle_main-card .card-price {
+  display: flex;
+}
+
+.carousle_main-card .card-price > div {
+  border: 1px solid black;
+  width: 4.4rem;
+  height: 1rem;
+  padding-top: 3rem;
 }
