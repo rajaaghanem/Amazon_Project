@@ -10,7 +10,7 @@
 .navbar_top {
   height: 12vh;
   display: grid;
-  grid-template-columns: 24rem 65rem 38rem;
+  grid-template-columns: 24rem 65rem 37rem;
   justify-content: space-between;
   background-color: black;
   color: white;
