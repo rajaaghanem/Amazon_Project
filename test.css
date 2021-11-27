@@ -138,6 +138,8 @@
   width: 25rem;
   height: 45rem;
   margin-top: 1.5rem;
+  background-color: white;
+  border-radius: 0.3rem;
 }
 
 .dropdown-signin-dropbtn,
@@ -162,21 +164,44 @@
   border: 1px solid black;
 }
 
-/* .link-hover > a:hover,
-.border-hover :hover {
-  border: 1px solid white;
-} */
+.signin-content-btn {
+  width: 18rem;
+  height: 4rem;
+  border-radius: 0.2rem;
+  background-color: rgb(233, 214, 128);
+  font-size: 1.3rem;
+  margin-left: 13rem;
+  color: black;
+}
 
-/* .border-hover :hover span,
-.border-hover :hover p {
-  border: none;
-} */
+.dropdown-singin-content-p {
+  color: black;
+  padding-left: 15rem;
+}
+
+.dropdown-singin-content_lists {
+  display: flex;
+  border-top: 0.1rem solid rgb(153, 151, 151);
+}
+
+.dropdown-singin-content_lists div ul li a {
+  display: block;
+  text-decoration: none;
+  padding: 0.2rem;
+  font-size: 1.3rem;
+  color: rgb(85, 84, 84);
+}
+
+.dropdown-singin-content_lists div ul li a:hover {
+  text-decoration: underline;
+  color: #f3a847;
+}
+
+.lists-style h2 {
+  color: black;
+}
 
 /*----style inline works -----*/
-
-/* .returns-bt p {
-  font-size: 1rem;
-} */
 
 .returns-btn {
   display: grid;

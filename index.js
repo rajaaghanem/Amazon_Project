@@ -85,21 +85,6 @@ function addInnerHtml(arr){
 const cardInfo=addInnerHtml(cards);
 card.innerHTML += cardInfo;
 
-// console.dir(card);
-// console.dir(cards);
-
-// const info = `<div id="${cards[0].id}" class="carousle_main-card" >
-// <img src="${cards[0].img}" alt="" srcset="">
-// <div class="description"><p>${cards[0].about}</p></div>
-// <div class="stars-num"><div class="${cards[0].stars}"></div><p>${cards[0].votes}</p></div>
-// <div class="card-price">${cards[0].price}<div class="${cards[0].icon}"></div></div>
-// </div>`;
-
-
-
-// card.innerHTML += info;
-
-
 
 function clickOn(){   
     let num = document.querySelector("#card-num"); 
@@ -107,5 +92,19 @@ function clickOn(){
     value++;
     document.querySelector("#card-num").innerHTML = value;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
