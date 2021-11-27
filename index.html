@@ -111,7 +111,7 @@
                 <div class="navbar-cart-btn border-hover">
                     <a class = "cart-btn_link" href="http://" target="_blank" rel="noopener noreferrer"> 
                           <div class="cart-btn_img"></div>
-                          <p class="cart-btn-items--num">0</p>
+                          <p id="card-num" class="cart-btn-items--num">0</p>
                           <p class="cart-word">cart</p>
                     </a> 
                 </div>
@@ -294,7 +294,9 @@
                     <!--secound btn add to cart-->
                     <div>
                        <div>
-                           <div class="add-to-cart_btn"><p>Add to cart</p><input class="add-to-cart_checkbox" type="checkbox" value="Add to cart"></div>
+                           <!-- <div class="add-to-cart_btn"><p>Add to cart</p><button class="add-to-cart_checkbox" onclick="click()"></button></div> -->
+                           <button class="add-to-cart_btn" onclick="clickOn()"> Add to cart </button>
+
                        </div> 
                     </div>
                      <!--third btn buy now-->

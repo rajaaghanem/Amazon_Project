@@ -594,11 +594,14 @@ li:hover .large {
   text-align: center;
 }
 
+.add-to-cart_btn {
+  border: none;
+}
+
 .buy-now_btn {
   background-color: orange;
 }
 
-.add-to-cart_checkbox,
 .buy-now_link {
   position: absolute;
   top: 0;
