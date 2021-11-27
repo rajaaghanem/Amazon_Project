@@ -559,6 +559,31 @@ li:hover .large {
   border-radius: 0.4rem;
 }
 
+.select-qty {
+  position: relative;
+  width: 6rem;
+  height: 1.8rem;
+  background-color: #e4e6e7;
+  border-radius: 0.7rem;
+  font-size: 1.2rem;
+  padding: 0.2rem;
+  border: 0.1rem solid rgb(206, 205, 205);
+  box-shadow: 0.1rem 0.1rem 0.2rem grey;
+}
+
+.select-qty-hidden {
+  width: 6rem;
+  height: 2.2rem;
+  position: absolute;
+  top: 0;
+  left: 0;
+  opacity: 0;
+}
+
+.select-qty:hover {
+  background-color: #bfc1c4;
+  box-shadow: transparent;
+}
 @font-face {
   font-family: amazon-font;
   src: url(/font/AmazonUIFont-amazonember_rg-cc7ebaa05a2cd3b02c0929ac0475a44ab30b7efa._V2_.woff2);
