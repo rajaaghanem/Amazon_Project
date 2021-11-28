@@ -214,6 +214,17 @@
   color: black;
 }
 
+.radio-icon-EN {
+  display: flex;
+  margin-left: 1rem;
+}
+
+.radio-icon-EN > div {
+  width: 2rem;
+  height: 2rem;
+  background: url("/img/rzrQQdi0aRm6Dap.png") -9.9rem -0.2rem;
+}
+
 /*----style inline works -----*/
 
 .returns-btn {
