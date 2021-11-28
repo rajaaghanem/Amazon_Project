@@ -1,3 +1,6 @@
+//! fill in card 
+
+
 const cards=[
     {
         id:"card_0",
@@ -82,9 +85,11 @@ function addInnerHtml(arr){
     return cardInfo;
 }
 
+
 const cardInfo=addInnerHtml(cards);
 card.innerHTML += cardInfo;
 
+//! added an item to the cart
 
 function clickOn(){   
     let num = document.querySelector("#card-num"); 
