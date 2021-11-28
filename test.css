@@ -145,6 +145,7 @@
 .dropdown-language-content {
   font-size: 1.3rem;
   color: black;
+  padding: 0.4rem;
 }
 
 .dropdown-language-content-first p {
@@ -216,7 +217,8 @@
 
 .radio-icon-EN {
   display: flex;
-  margin-left: 1rem;
+  margin-left: 4rem;
+  font-size: 1.5rem;
 }
 
 .radio-icon-EN > div {
@@ -225,6 +227,17 @@
   background: url("/img/rzrQQdi0aRm6Dap.png") -9.9rem -0.2rem;
 }
 
+.languages-list ul li {
+  list-style-type: none;
+  margin: 1rem;
+  font-size: 1.5rem;
+}
+
+.languages-list ul li:hover {
+  text-decoration: underline;
+  color: #cc6600;
+  cursor: pointer;
+}
 /*----style inline works -----*/
 
 .returns-btn {
